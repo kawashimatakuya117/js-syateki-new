@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>温泉射撃大作戦　プレイ画面</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/game.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="header">
+            <img class="syateki" src="./images/syateki.png" alt="射的">
+            <!-- <h1 class="syateki">射的</h1><br> -->
+            <p id="point"></p>
+        </div>
+
+        <div class="box" id="box">
+            <img id="target" src="images/keihin0.png" onclick="randomTarget()">
+            <div id="result"></div>
+        </div>
+<div class="text_box">
+       <div id='idDisplay'></div>
+
+        <div class="button05">
+            <button id="start_btn">START</button>
+            <button id="returnBtn"><a href="index.html"> タイトルに戻る</a></button>
+            <button id="restart_btn" onClick='restart()'>もう一度遊ぶ</button>
+        </div>
+</div>        
+    </div>
+    <script src="./js/game.js"></script>
+</body>
+
+</body>
+
+</html>

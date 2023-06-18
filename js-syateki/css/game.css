@@ -1,0 +1,131 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header img {
+    width: 1000px;
+    height: 150px;
+    margin-top: 50px;
+
+}
+
+.main-container {
+    height: 100vh;
+    max-width: 100%;
+    background-image: url('../images/background3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.box {
+    width: 1000px;
+    height: 500px;
+    background-image: url('../images/tana1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+#target {
+    width: 100px;
+    height: 100px;
+    display: none;
+    position: absolute;
+    top: 158px;
+    left: 666px;
+    margin: auto;
+}
+
+#result {
+    display: none;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    background-image: url('../images/text-bg.png');
+    background-repeat: no-repeat;
+    background-size: 1000px 500px;
+    position: relative;
+
+}
+
+.button05 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.button05 button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 150px;
+    color: #333;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #cccccc;
+    box-shadow: 0 5px 0 #aaaaaa;
+    transition: 0.3s;
+}
+
+.button05 button::after {
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #333333;
+    transform: rotate(45deg);
+}
+
+.button05 button:hover {
+    transform: translateY(3px);
+    text-decoration: none;
+    box-shadow: 0 2px 0 #aaaaaa;
+}
+
+
+.score {
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+
+.result {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+
+#restart_btn {
+    display: none;
+    margin: auto;
+}
+
+#returnBtn {
+    display: none;
+    margin: auto;
+}
+
+#idDisplay {
+    font-size: 24px;
+}
+
+.text_box {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+}
